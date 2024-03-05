@@ -135,7 +135,7 @@ body{
 
 .nav-1 img{
     width: 200px;
-    margin-left: 90px;
+    margin-left: 130px;
 }
 
 .btn-green{
@@ -270,12 +270,6 @@ body{
   border-bottom: 2px solid #8dc63f; /* Set the color of the underline on hover */
 }
 
-
-
-
-
-
-
 .animation{
 
   animation: animate 1s linear infinite;
@@ -288,3 +282,111 @@ body{
   75%{color: #0d6db7;}
   100%{color: #0d6db7;}
 }
+
+
+
+.section{
+  margin: 0 auto;
+  width: 95%;
+  display: flex;
+}
+
+.col-1{
+
+  margin-top: 110px;
+  margin-left: 95px;
+  width: 45%;
+}
+
+.col-1 p{
+  font-size: 19px;
+}
+
+.col-1 h1{
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.green{
+  color: #8dc63f;
+}
+
+
+.col-1 button{
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 10px 42px;
+}
+
+.col-1 button a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.flex{
+  display: flex;
+}
+
+
+.inline{
+  display: inline;
+}
+
+
+@keyframes typing {
+  0%, 100% { width: 0; }
+  25%, 75% { width: 42%; }
+}
+
+.typing-text {
+  font-size: 22px;
+  overflow: hidden;
+  margin-left: 4px;
+  margin-bottom: 3px;
+  color: #0d6db7;
+  white-space: nowrap;
+  animation: typing 6s steps(40, end) infinite;
+  border-right: 3px solid #0d6db7;
+}
+
+.img-1{
+  margin-left: 110px;
+  margin-top: 25px;
+}
+
+.section img{
+  height: 520px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
